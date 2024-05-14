@@ -28,12 +28,13 @@ This program utilises a hash map to manage the master user's credentials, storin
  - Add User ID: Allows storing of user entries in the add user ID hash map.
    
  - Delete User ID: Removes user entries if they exist in the hash map.
- - 
+   
  - Update User Password: Enables changing passwords for existing users.
- - 
+   
  - Modify Master Password: Allows changing the master password.
+   
  - Official Master Access: Validates access to perform operations based on selected options.
- - 
+   
  - Hashing: Utilises the SHA-256 algorithm to securely hash passwords before storing them in the hash map. Encrypted passwords are then written to files for storage.
 
 The process involves looping through the add user ID hash map to encrypt and store passwords. Exception handling ensures program continuity, even in case of errors during encryption or file writing. The same process applies to encrypting the master password, with separate file and hash map names for distinction.

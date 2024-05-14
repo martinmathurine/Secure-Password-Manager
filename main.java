@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 public class main {
 
-    // Martin M
+    // Martin M X Secure Password Manager 
     // Hashmaps created
     // master hashmap will store the masterId and passwords
     // addUserId hashmap will store the normal entries.

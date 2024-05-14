@@ -51,3 +51,20 @@ https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/2aa1f
 
 <h3>Concluding Reflections</h3>
 In conclusion, Java was chosen for its simplicity and security features, facilitating easy interpretation of the source code. Application security, crucial in various network environments, is ensured through pre-emptive measures during the development and implementation of cryptographic tools like SHA-256. Security at the network layer is vital and within the application layer. Java's efficiency in compiling and executing code aligns well with the need to safeguard user data and prevent unauthorized access.
+
+<h3>References</h3>
+
+ - TablePlus. (28/08/2018). CLI vs GUI - Which one is better?. Available: https://tableplus.com/blog/2018/08/cli-vs-gui-which-one-is-better.html. Last accessed 16/12/2021.
+ - Indumathi S.. (March 20, 2020). 5+ Tips to Secure Your Java Code from Attackers. Available: https://www.secpod.com/blog/secure-your-java-code-2/. Last accessed 16/12/2021.
+ - Mike Dane. ( 22 Oct 2017). Java - Programming Language | Tutorial. Available: https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpPpdR_9IQBUDLjYalvdrGGb. Last accessed 16/12/2021.
+ - Tutorials Point (India) Ltd.. (16 Dec 2019). Java Essential Training. Available: https://www.youtube.com/playlist?list=PLWPirh4EWFpFfTUVBl5KbeXly1sHKSc-Z. Last accessed 16/12/2021.
+ - Baeldung. (March 5, 2021). SHA-256 and SHA3-256 Hashing in Java. Available: https://www.baeldung.com/sha-256-hashing-java. Last accessed 16/12/2021.
+ - Gartner. (26 May 2021). Critical Capabilities for Application Security Testing. Available: https://www.gartner.com/en/documents/4001984/critical-capabilities-for-application-security-testing. Last accessed 16/12/2021.
+ - Stackify. (SEPTEMBER 14, 2015). What is APM? Overview, Common Terms, and 10 Critical APM Features. Available: https://stackify.com/what-is-apm/. Last accessed 16/12/2021.
+ - MicroFocus. What is Application Security?. Available: https://www.microfocus.com/en-us/what-is/application-security. Last accessed 16/12/2021.
+ - vmware. What is application security?. Available: https://www.vmware.com/topics/glossary/content/application-security.html. Last accessed 16/12/2021.
+ - Mansi Sheth. (April 18, 2017). Encryption and Decryption in Java Cryptography. Available: https://www.veracode.com/blog/research/encryption-and-decryption-java-cryptography. Last accessed 16/12/2021.
+ - Anton Lawrence. (March 24, 2020). Best Practices for Java Security. Available: https://bitbucket.org/blog/best-practices-for-java-security. Last accessed 16/12/2021.
+ - Diego Pacheco. (Jul 25, 2020). Hashing in Java. Available: https://diego-pacheco.medium.com/hashing-in-java-834feb0e0500. Last accessed 16/12/2021.
+ - https://javatutorialhq.com/java/util/hashmap-class/put-method-example/
+ - https://stackoverflow.com/questions/5531455/how-to-hash-some-string-with-sha-256-in-java

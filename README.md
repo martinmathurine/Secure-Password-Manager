@@ -39,10 +39,14 @@ This program utilises a hash map to manage the master user's credentials, storin
 
 The process involves looping through the add user ID hash map to encrypt and store passwords. Exception handling ensures program continuity, even in case of errors during encryption or file writing. The same process applies to encrypting the master password, with separate file and hash map names for distinction.
 
+https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/f6b6096f-cacf-4ba9-96c0-0da6640ce2f6
+
 <h3>Security Features</h3> y
 I decided to implement SHA-256 to encrypt the passwords for both the master user and students. I believe SHA-256 is efficient enough to uniquely hash, encrypt and secure user data such as account specific end-user passwords and usernames. The fundamental reason SHA-256 was used is due to the fact that it does not have any known security weaknesses in contrast to other hashing algorithms. This is considered the most secure in cryptography.
 
 <h3>Usability Demo</h3> 
+
+https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/2aa1f5cb-f725-47bc-b355-8b0d785f14da
 
 <h3>Concluding Reflections</h3>
 In conclusion, we decided that Java is the most suitable programming language for this application since Java is a high-level language and can be easily interpreted. This makes the source code simple and easy to use whilst fulfilling the requirements to be secure whilst in use. Application security is important because applications are often times used over various network topologies and infrastructures which increase the possibility for potential data breaches. Security at the network layer is vital but also within the application layer too. Application security entails pre-emptive considerations during the development, design phase as well as ways the application can pivot to protect itself after it has been deployed which can be achieved through the use of appropriate cryptographic tools and APIs implemented within the application’s source code. Java is fast and efficient to compile and execute source code making it ideal to use in conjunction with SHA-256 to safely store the end-user’s data and information and prevent unauthorised access from potential data breach attacks.

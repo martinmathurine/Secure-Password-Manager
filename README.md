@@ -25,7 +25,7 @@ This program utilises a hash map to manage the master user's credentials, storin
  
  - Main Menu: Displays available options for managing user entries.
   
- - Add User ID: Allows storing of user entries in the add user ID hash map.
+ - Add User ID: Allows storing user entries in the add user ID hash map.
    
  - Delete User ID: Removes user entries if they exist in the hash map.
    
@@ -41,7 +41,7 @@ The process involves looping through the add user ID hash map to encrypt and sto
 
 https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/f6b6096f-cacf-4ba9-96c0-0da6640ce2f6
 
-<h3>Security Features</h3> y
+<h3>Security Features</h3>
 I decided to implement SHA-256 to encrypt the passwords for both the master user and students. I believe SHA-256 is efficient enough to uniquely hash, encrypt and secure user data such as account specific end-user passwords and usernames. The fundamental reason SHA-256 was used is due to the fact that it does not have any known security weaknesses in contrast to other hashing algorithms. This is considered the most secure in cryptography.
 
 <h3>Usability Demo</h3> 

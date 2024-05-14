@@ -1,9 +1,6 @@
 # Secure-Password-Manager
 <h2>Application Security Through Hashing Technologies Developed with Java</h2>
 
-<img width="500" src="
-  ">
-
 <h3>Introduction</h3>
 A secure password manager application developed with Java to safely store, modify and remove an end-user’s data and personal information. The application incorporates an authentication mechanism by leveraging hash maps for application security. This application will efficiently store and manage sensitive data, ensuring only the authenticated user has access. Using hash maps for pairing unique keys to corresponding values streamlines the retrieval of user credentials and bolsters the application's defence against unauthorised access. 
 
@@ -22,13 +19,11 @@ In order to store the password into a file the user will need to type in the mas
 When developing this Java application I decided to implement a menu based operating system, as I believed it will be an easy way in order to structure the layout to know what each command does. I believe that simplicity is key as that will allow many from any technical background reading the source code to easily interpret the application’s function. IntelliJ IDEA was Java IDE use to develop the source code.
 
 <h3>Functionality Demo</h3> 
-https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/cc9b25db-5dc2-4912-8548-ab1d554d311d
 
 <h3>Security Features</h3> 
 I decided to implement SHA-256 to encrypt the passwords for both the master user and students. I believe SHA-256 is efficient enough to uniquely hash, encrypt and secure user data such as account specific end-user passwords and usernames. The fundamental reason SHA-256 was used is due to the fact that it does not have any known security weaknesses in contrast to other hashing algorithms. This is considered the most secure in cryptography.
 
 <h3>Usability Demo</h3> 
-https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/e265846f-dfa4-403d-9e38-c82fa6ba03cc
 
 <h3>Concluding Reflections</h3>
 In conclusion, we decided that Java is the most suitable programming language for this application since Java is a high-level language and can be easily interpreted. This makes the source code simple and easy to use whilst fulfilling the requirements to be secure whilst in use. Application security is important because applications are often times used over various network topologies and infrastructures which increase the possibility for potential data breaches. Security at the network layer is vital but also within the application layer too. Application security entails pre-emptive considerations during the development, design phase as well as ways the application can pivot to protect itself after it has been deployed which can be achieved through the use of appropriate cryptographic tools and APIs implemented within the application’s source code. Java is fast and efficient to compile and execute source code making it ideal to use in conjunction with SHA-256 to safely store the end-user’s data and information and prevent unauthorised access from potential data breach attacks.

@@ -1,5 +1,5 @@
 # Secure-Password-Manager
-<h2>Data Security Through Hashing Technologies</h2>
+<h2>Application Security Through Hashing Technologies Developed with Java</h2>
 
 
 A secure password manager application to safely store, modify and remove an end-user’s data and personal information.

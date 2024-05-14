@@ -7,7 +7,6 @@ A secure password manager application developed with Java to safely store, modif
 The main components of the application's design include a login system that safeguards the master user method as well as encryption mechanisms employed to obfuscate passwords. I implemented conditional statements, only permitting system modifications upon verification of proper credentials. This application illustrates my competency in the nuances of hashing algorithms and BigInteger's role in handling numerical values, ensuring a comprehensive understanding of what it takes to protect user data with precision and care.
 
 <h3>Application Usability Demo Video</h3> 
-
 https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/a4612c50-c7be-441a-8e61-ba0bd9b1e3b1
 
 

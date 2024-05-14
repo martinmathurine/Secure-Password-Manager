@@ -16,7 +16,7 @@ The objective for this lab is to build a secure application to safely store, mod
 The block diagram begins with the master user inputting a pre-defined master ID and password (ID = Username and Password = password). Then they will be able to enter in a new user ID and password. If the user wants to delete an entry they will need to re-enter the master ID and the password as well. The user will be able to change the password too.
 In order to store the password into a file the user will need to type in the master ID and also the new master password as well, such as if the user enters '4'. When a user selects '5' or '6' it will ask for the new master ID and password and both the master ID and passwords will be stored in separate files. When the user selects '5' it will show the encrypted password and proof that we can delete entries. Now the master ID and password are hashed and encrypted.
 
-<img width="500" src="https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/96c1ff0d-4df4-48e7-8e2c-4a62330ac4dd">
+<img width="500" src="https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/9d2e59db-f79b-43af-a1e7-742771c2b374">
 
 <h3>Development Methodology</h3>
 When developing this Java application I decided to implement a menu based operating system, as I believed it will be an easy way in order to structure the layout to know what each command does. I believe that simplicity is key as that will allow many from any technical background reading the source code to easily interpret the application’s function. IntelliJ IDEA was Java IDE use to develop the source code.

@@ -1,4 +1,7 @@
 # Secure-Password-Manager
+<h2>Data Security through Hashing Technologies</h2>
+
+
 A secure password manager application to safely store, modify and remove an end-user’s data and personal information.
 
 

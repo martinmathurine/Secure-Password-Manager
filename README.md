@@ -11,7 +11,7 @@ The objective for this lab is to build a secure application to safely store, mod
 
 <h3>Design Considerations and Block Diagram</h3>
 The block diagram begins with the master user inputting a pre-defined master ID and password (ID = Username and Password = password). Then they will be able to enter in a new user ID and password. If the user wants to delete an entry they will need to re-enter the master ID and the password as well. The user will be able to change the password too.
-In order to store the password into a file the user will need to type in the master ID and also the new master password as well, such as if the user enters '4'. When a user selects '5' or '6' it will ask for the new master ID and password and both the master ID and passwords will be stored in separate files. When the user selects '5' it will show the encrypted password and proof that we can delete entries. Now the master ID and password are hashed and encrypted.
+In order to store the password into a file the user will need to type in the master ID and also the new master password as well, such as if the user enters '4'. When a user selects '5' or '6' it will ask for the new master ID and password and both the master ID and passwords will be stored in separate files. When the user selects '5', it will show the encrypted password and proof that the user can delete entries. Now the master ID and password are hashed and encrypted.
 
 <img width="500" src="https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/9d2e59db-f79b-43af-a1e7-742771c2b374">
 
@@ -42,12 +42,11 @@ The process involves looping through the add user ID hash map to encrypt and sto
 https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/f6b6096f-cacf-4ba9-96c0-0da6640ce2f6
 
 <h3>Security Features</h3>
-I decided to implement SHA-256 to encrypt the passwords for both the master user and students. I believe SHA-256 is efficient enough to uniquely hash, encrypt and secure user data such as account specific end-user passwords and usernames. The fundamental reason SHA-256 was used is due to the fact that it does not have any known security weaknesses in contrast to other hashing algorithms. This is considered the most secure in cryptography.
+I implemented SHA-256 to encrypt the passwords for the master user and students. SHA-256 is efficient enough to uniquely hash encrypted data and safely secure it such as account-specific end-user passwords and usernames. With no known security weaknesses, it ensures high-level data protection, making it the preferred choice for cryptography.
 
 <h3>Usability Demo</h3> 
 
 https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/2aa1f5cb-f725-47bc-b355-8b0d785f14da
 
 <h3>Concluding Reflections</h3>
-In conclusion, we decided that Java is the most suitable programming language for this application since Java is a high-level language and can be easily interpreted. This makes the source code simple and easy to use whilst fulfilling the requirements to be secure whilst in use. Application security is important because applications are often times used over various network topologies and infrastructures which increase the possibility for potential data breaches. Security at the network layer is vital but also within the application layer too. Application security entails pre-emptive considerations during the development, design phase as well as ways the application can pivot to protect itself after it has been deployed which can be achieved through the use of appropriate cryptographic tools and APIs implemented within the application’s source code. Java is fast and efficient to compile and execute source code making it ideal to use in conjunction with SHA-256 to safely store the end-user’s data and information and prevent unauthorised access from potential data breach attacks.
-
+In conclusion, Java was chosen for its simplicity and security features, facilitating easy interpretation of the source code. Application security, crucial in various network environments, is ensured through pre-emptive measures during the development and implementation of cryptographic tools like SHA-256. Security at the network layer is vital and within the application layer. Java's efficiency in compiling and executing code aligns well with the need to safeguard user data and prevent unauthorized access.

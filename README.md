@@ -19,7 +19,7 @@ To store the password into a file the user will need to type in the master ID an
 <h3>Development Methodology</h3>
 While developing this Java application, I opted for a menu-based operating system to provide a clear structure and understanding of each command's function. Simplicity was prioritised to ensure accessibility for users of varying technical backgrounds. IntelliJ IDEA served as the Java IDE for developing the source code.
 
-<h3>Functionality Demo</h3> 
+<h3>Functionality</h3> 
 This program utilises a hash map to manage the master user's credentials, storing them in the add user ID hash map. This hash map pairs usernames with passwords for easy retrieval. The main method presents a menu-based interface, offering options for adding, updating, or deleting user entries.
 
  - Master User Authentication: The first method verifies the master user's credentials, allowing access to the main menu upon correct input. Incorrect entries result in program termination.
@@ -39,8 +39,6 @@ This program utilises a hash map to manage the master user's credentials, storin
  - Hashing: Utilises the SHA-256 algorithm to securely hash passwords before storing them in the hash map. Encrypted passwords are then written to files for storage.
 
 The process involves looping through the add user ID hash map to encrypt and store passwords. Exception handling ensures program continuity, even in case of errors during encryption or file writing. The same process applies to encrypting the master password, with separate file and hash map names for distinction.
-
-https://github.com/martinmathurine/Secure-Password-Manager/assets/42855193/f6b6096f-cacf-4ba9-96c0-0da6640ce2f6
 
 <h3>Security Features</h3>
 I implemented SHA-256 to encrypt the passwords for the master user and students. SHA-256 is efficient enough to uniquely hash encrypted data and safely secure it such as account-specific end-user passwords and usernames. With no known security weaknesses, it ensures high-level data protection, making it the preferred choice for cryptography.
